@@ -1,0 +1,2016 @@
+@media only screen and (max-width : 767px) {
+
+    /*----- Default CSS -----*/
+    $all-size: 15px;
+
+    body {
+        font-size: $all-size;
+    }
+    .ptb-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+    .mb-100 {
+        margin-bottom: 0;
+    }
+    .section-title {
+        margin-bottom: 30px;
+
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .container {
+        max-width: 540px;
+    }
+    .container-fluid {
+        max-width: 540px;
+    }
+
+    /*----- Home Demo One CSS -----*/
+    /*-- Header --*/
+    .header-area {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+        border-bottom: 1px solid #dddddd45;
+
+        .left {
+            margin-bottom: 10px;
+
+            ul {
+                li {
+                    margin-right: 0;
+                    margin-bottom: 5px;
+                    display: block;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        .right {
+            text-align: center;
+        }
+    }
+
+    /*-- Navbar --*/
+    .side-nav {
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        box-shadow: 0px 0px 15px 0px #dddddd45;
+
+        .consultant-btn {
+            padding: 10px 18px;
+        }
+    }
+
+    /*-- Banner --*/
+    .banner-area {
+        padding-top: 190px;
+        padding-bottom: 60px;
+        text-align: center;
+
+        &:before {
+            background: #000;
+            opacity: .80;
+        }
+        .banner-shape {
+            img {
+                display: none;
+            }
+        }
+    }
+    .banner-item {
+        height: 100%;
+    }
+    .banner-content {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+
+        h1 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+    }
+    .banner-slider-img {
+        position: relative;
+        right: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        max-width: 255px;
+
+        &.two {
+            max-width: 180px;
+        }
+        &.three {
+            max-width: 180px;
+        }
+    }
+
+    /*-- About --*/
+    .about-area {
+        .about-shape {
+            img {
+                position: absolute;
+
+                &:nth-child(1) {
+                    top: 100px;
+                    left: 0;
+                }
+                &:nth-child(2) {
+                    left: 40px;
+                    top: 140px;
+                    animation: about-ani-two 15s linear infinite;
+                }
+                &:nth-child(3) {
+                    top: 100px;
+                    left: 30px;
+                    max-width: 210px;
+                    animation: about-ani-one 5s linear infinite;
+                }
+            }
+        }
+        .left-padding {
+            padding-left: 15px;
+        }
+        .about-img {
+            margin-bottom: 30px;
+
+            .one {
+                text-align: center;
+
+                img {
+                    &:nth-child(1) {
+                        max-width: 100%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                }
+            }
+            .three {
+                margin-bottom: 30px;
+            }
+        }
+        .about-content {
+            max-width: 100%;
+            text-align: center;
+
+            .section-title {
+                text-align: center;
+            }
+            .middle {
+                span {
+                    font-size: 16px;
+                }
+            }
+            .bottom {
+                margin-bottom: 30px;
+                
+                ul {
+                    li {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                        text-align: center;
+                        margin-bottom: 30px;
+                        padding-left: 0;
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        i {
+                            position: relative;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                        }
+                    }
+                }
+            }
+            .years {
+                left: 0;
+
+                ul {
+                    li {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+
+                        &:nth-child(2) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
+                        .years-inner {
+                            padding: 18px 40px 20px 105px;
+                            text-align: left;
+                            margin-bottom: 35px;
+                            max-width: 385px;
+                            margin-left: auto;
+                            margin-right: auto;
+
+                            span {
+                                font-size: 60px;
+                                left: 20px;
+                            }
+                            h4 {
+                                font-size: 30px;
+                            }
+                            i {
+                                opacity: .10;
+                            }
+                            img {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*-- Services --*/
+    .services-item {
+        padding: 55px 15px 30px 15px;
+        text-align: center;
+
+        .icon {
+            position: relative;
+            left: 0;
+            top: 0;
+            right: 0;
+            margin-bottom: 40px;
+            display: inline-block;
+        }
+        h3 {
+            font-size: 22px;
+        }
+    }
+
+    /*-- Works --*/
+    .works-item {
+        h3 {
+            font-size: 22px;
+        }
+    }
+
+    /*-- Book --*/
+    .book-area {
+        .book-content {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-left: 15px;
+            padding-right: 15px;
+
+            h2 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 22px;
+            }
+        }
+    }
+
+    /*-- Touch --*/
+    .touch-area {
+        .section-title {
+            text-align: center;
+        }
+    }
+
+    /*-- Team --*/
+    .team-area {
+        .owl-prev {
+            display: none !important;
+        }
+        .owl-next {
+            display: none !important;
+        }
+    }
+    .team-item {
+        margin-left: 10px;
+        margin-right: 10px;
+
+        .top {
+            ul {
+                top: unset;
+                left: 0;   
+                right: 0;  
+                bottom: 30px;  
+                text-align: center; 
+
+                li {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+    /*-- Plan --*/
+    .plan-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+
+        &:before {
+            width: 0%;
+        }
+        .plan-content {
+            padding: 20px 15px 30px 15px;
+            max-width: 100%;
+            top: 0;
+            margin-left: auto;
+            margin-right: auto;
+
+            .section-title {
+                text-align: center;
+
+                h2 {
+                    max-width: 100%;
+                }
+            }
+            .skill-wrap {
+                text-align: left;
+            }
+            .skill-bar {
+                span{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    /*-- FAQ --*/
+    .faq-area {
+        .section-title {
+            text-align: center;
+        }
+        .faq-img {
+            img {
+                &:nth-child(2) {
+                    display: none;
+                }
+            }
+        }
+    }
+    .faq-item {
+        .accordion { 
+            p {
+                padding: 20px 20px 20px 25px;
+            }
+        }
+    }
+
+    /*-- Testimonials --*/
+    .testimonials-area {
+        padding-bottom: 50px;
+
+        .section-title {
+            text-align: center;
+        }
+        .testimonials-item {
+            margin-bottom: 0;
+            text-align: center;
+
+            img {
+                position: relative;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                max-width: 100%;
+                margin-bottom: 30px;
+            }
+            .inner {
+                padding-left: 0;
+
+                h2 {
+                    font-size: 22px;
+                }
+                h3 {
+                    font-size: 22px;
+                }
+                i {
+                    display: none;
+                }
+            }
+        }
+        .owl-theme .owl-nav {
+            margin-top: 0;
+            position: relative;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    }
+
+    /*-- Blog --*/
+    .blog-item {
+        text-align: center;
+
+        .bottom {
+            padding: 20px 15px 25px;
+
+            ul {
+                li {
+                    margin-right: 5px;
+                }
+            }
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    /*-- Footer --*/
+    .footer-item {
+        h3 {
+            font-size: 22px;
+        }
+    }
+    /*----- End Home Demo One CSS -----*/
+
+    /*----- Home Demo Two CSS -----*/
+    /*-- Banner --*/
+    .banner-area-two {
+        .banner-item {
+            .banner-content {
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                padding-top: 200px;
+                padding-bottom: 100px;
+
+                h1 {
+                    font-size: 40px;
+                }
+            }
+        }
+        .owl-prev {
+            top: 90%;
+        }
+        .owl-next {
+            top: 90%;
+        }
+    }
+
+    /*-- About --*/
+    .about-area-two {
+        .about-content {
+            text-align: center;
+
+            .section-title {
+                text-align: center;
+            }
+            ul {
+                li {
+                    text-align: left;
+
+                    h3 {
+                        font-size: 22px;
+                    }
+                }
+            }
+            .common-btn {
+                margin-top: 35px;
+            }
+        }
+    }
+
+    /*-- Projects --*/
+    .projects-item {
+        .inner {
+            left: 0;
+            right: 0;
+            text-align: center;
+
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    /*-- Services Two --*/
+    .services-item-two {
+        text-align: center;
+
+        .bottom {
+            padding: 20px 15px 25px;
+
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    /*-- Projects Two --*/
+    .projects-item-two {
+        padding: 30px 15px 30px;
+        text-align: center;
+
+        h3 {
+            font-size: 22px;
+        }
+    }
+
+    /*-- Counter --*/
+    .counter-wrap {
+        padding: 30px 15px 0px;
+    }
+    .counter-item {
+        &:before {
+            display: none;
+        }
+        i {
+            font-size: 50px;
+            line-height: 50px;
+        }
+        h3 {
+            font-size: 35px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+
+    /*-- Video --*/
+    .video-area {
+        height: 450px;
+
+        .video-item {
+            .video-wrap {
+                margin-left: 0;
+            }
+            span {
+                font-size: 25px;
+            }
+        }
+    }
+
+    /*-- Works --*/
+    .works-area-two {
+        .works-img {
+            img {
+                &:nth-child(1) {
+                    display: none;
+                }
+                &:nth-child(2) {
+                    position: relative;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    max-width: 100%;
+                    margin-bottom: 30px;
+                    margin-top: -10px;
+                }
+            }
+        }
+        .works-content {
+            text-align: center;
+
+            .section-title.two {
+                text-align: center;
+            }
+            ul {
+                li {
+                    text-align: left;
+                    h3 {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*-- Testimonials --*/
+    .testimonials-area-two {
+        .testimonials-item {
+            h2 {
+                font-size: 20px;
+                line-height: 1.6;
+            }
+        }
+        .owl-prev {
+            top: 90%;
+            left: 0;
+        }
+        .owl-next {
+            top: 90%;
+            right: 0;
+        }
+    }
+    /*----- End Home Demo Two CSS -----*/
+
+    /*----- Home Demo Three CSS -----*/
+    /*-- Navbar --*/
+    .side-nav {
+        .navbar-form {
+
+            .form-control {
+                height: 25px;
+            }
+        }
+    }
+
+    /*-- Banner --*/
+    .banner-area-three {
+        height: 100%;
+        padding-top: 180px;
+        padding-bottom: 90px;
+        text-align: center;
+
+        .banner-shape {
+            left: -30px;
+        }
+        .banner-content {
+            margin-top: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .banner-slider-img {
+            position: relative;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            max-width: 100%;
+        }
+    }
+
+    /*-- Provide --*/
+    .provide-area {
+        .nav {
+            li {
+                flex: 0 0 100%;
+                max-width: 100%;
+                margin-bottom: 10px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .tab-content {
+            text-align: center;
+
+            .provide-left {
+                h2 {
+                    font-size: 30px;
+                }
+                ul {
+                    li {
+                        padding-left: 0;
+
+                        i {
+                            position: relative;
+                            top: 0;
+                            left: 0;
+                            margin-bottom: 10px;
+                        }
+                        h3 {
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*-- Features --*/
+    .features-area {
+        .projects-item-two {
+            &.bottom-gap-top {
+                margin-top: 0;
+            }
+            &.bottom-gap-bottom {
+                margin-top: 0;
+            }
+        }
+    }
+
+    /*-- Projects --*/
+    .projects-area-three {
+        .section-title.three {
+            text-align: center;
+        }
+        .container-fluid {
+            max-width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .owl-theme .owl-nav {
+            position: relative;
+            top: 0;
+            right: 0;
+            left: 0;
+            margin-bottom: 30px;
+        }
+    }
+    .projects-item-three {
+        text-align: center;
+
+        .bottom {
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    /*-- Touch --*/
+    .touch-area.three {
+        .section-title.three {
+            padding-left: 0;
+        }
+        .touch-content {
+            margin-bottom: 30px;
+        }
+    }
+
+    /*-- Testimonials --*/
+    .testimonials-area-three {
+        .testimonials-item {
+            .top {
+                h2 {
+                    line-height: 1.6;
+                }
+            }
+        }
+        .owl-prev {
+            display: none !important;
+        }
+        .owl-next {
+            display: none !important;
+        }
+    }
+    /*----- End Home Demo Three CSS -----*/
+
+    /*----- About CSS -----*/
+    .page-title-area {
+        height: 400px;
+
+        .title-content {
+            margin-top: 95px;
+
+            h2 {
+                font-size: 35px;
+            }
+        }
+    }
+    /*----- End About CSS -----*/
+
+    /*----- Services CSS -----*/
+    .pagination-area {
+        ul {
+            li {
+                a {
+                    width: 40px;
+                }
+            }
+        }
+    }
+    /*----- End Services CSS -----*/
+
+    /*----- Service details CSS -----*/
+    .service-details-area {
+        .details-item {
+            margin-bottom: 30px;
+
+            .details-img {
+                text-align: center;
+                margin-bottom: 30px;
+
+                h2 {
+                    font-size: 30px;
+                }
+            }
+            .details-business {
+                margin-bottom: 30px;
+
+                h3 {
+                    font-size: 22px;
+                }
+            }
+            .details-faq {
+                .section-title {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .widget-area {
+        .widget-item {
+            padding: 30px 15px 30px;
+
+            h3 {
+                font-size: 22px;
+            }
+        }
+        .consultation {
+            .inner {
+                h3 {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    /*----- End Service details CSS -----*/
+
+    /*----- Project details CSS -----*/
+    .project-details-area {
+        .details-item {
+            margin-bottom: 30px;
+
+            .details-img {
+                margin-bottom: 25px;
+                text-align: center;
+
+                h2 {
+                    font-size: 30px;
+                }
+            }
+            .details-client {
+                margin-bottom: 30px;
+
+                h3 {
+                    font-size: 22px;
+                }
+            }
+            .details-related {
+                text-align: center;
+
+                h3 {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+    /*----- End Project details CSS -----*/
+
+    /*----- Blog details CSS -----*/
+    .blog-details-area {
+        .details-item {
+            margin-bottom: 30px;
+
+            .details-img {
+                margin-bottom: 30px;
+                text-align: center;
+
+                h2 {
+                    font-size: 30px;
+                }
+            }
+            .details-quote {
+                margin-bottom: 20px;
+                text-align: center;
+
+                blockquote {
+                    padding: 30px 15px 30px;
+        
+                    h3 {
+                        font-size: 17px;
+                    }
+                    i {
+                        font-size: 40px;
+                        bottom: 8px;
+                        right: 25px;
+                    }
+                }
+            }
+            .details-grow {
+                margin-bottom: 30px;
+
+                h3 {
+                    font-size: 22px;
+                }
+            }
+            .details-form  {
+                padding: 30px 15px 30px;
+                margin-bottom: 30px;
+                text-align: center;
+
+                h3 {
+                    font-size: 22px;
+                }
+                .form-group {
+                    margin-bottom: 15px;
+                    text-align: left;
+                }
+            }
+            .details-comment {
+                h3 {
+                    font-size: 22px;
+                }
+                ul {
+                    li {
+                        padding-left: 105px;
+
+                        &:nth-child(2) {
+                            margin-left: 0;
+                        }
+                        h4 {
+                            font-size: 19px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .widget-area {
+        .popular {
+            .popular-inner {
+                ul {
+                    li {
+                        flex: 0 0 25%;
+                        max-width: 25%;
+
+                        &:last-child {
+                            flex: 0 0 65%;
+                            max-width: 65%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*----- End Blog details CSS -----*/
+
+    /*----- Contact CSS -----*/
+    .contact-info-item {
+        h3 {
+            font-size: 22px;
+        }
+    }
+    .map-area {
+        #map {
+            height: 350px;
+        }
+    }
+    /*----- End Contact CSS -----*/
+
+    /*----- User Form CSS -----*/
+    .user-form-area {
+        .form-item {
+            form {
+                h2 {
+                    font-size: 30px;
+                }
+            }
+            .user-btn {
+                span {
+                    &:before {
+                        width: 30%;
+                    }
+                    &:after {
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+    /*----- End User Form CSS -----*/
+
+    /*----- Loan CSS -----*/
+    .loan-area {
+        .loan-item {
+            margin-bottom: 30px;
+
+            .loan-img {
+                text-align: center;
+
+                h2 {
+                    font-size: 30px;
+                }
+            }
+            ul {
+                li {
+                    h3 {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+    /*----- End Loan CSS -----*/
+
+    /*----- Apply CSS -----*/
+    .apply-area {
+        .apply-item {
+
+            h2 {
+                font-size: 30px;
+            }
+        }
+    }
+    /*----- End Apply CSS -----*/
+
+    /*----- Error CSS -----*/
+    .error-area {
+        .error-content {
+            h1 {
+                font-size: 85px;
+            }
+        }
+    }
+    /*----- End Error CSS -----*/
+
+    /*----- Coming Soon CSS -----*/
+    .coming-soon-area {
+        .soon-item {
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+    /*----- End Coming Soon CSS -----*/
+
+    /*----- Rules CSS -----*/
+    .rules-area {
+        .rules-item {
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    /*----- End Rules CSS -----*/
+
+    .side-nav {
+        .language {
+            margin-right: 5px;
+
+            .nice-select {
+                padding-left: 0;
+            }
+        }
+        .navbar-form {
+            margin-right: 10px;
+        }
+    }
+
+}
+
+@media only screen and (min-width : 576px) and (max-width : 767px) {
+
+    .services-item {
+        padding: 60px 10px 30px 10px;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    /*----- Default CSS -----*/
+    $all-size: 15px;
+
+    body {
+        font-size: $all-size;
+    }
+    .ptb-100 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .pt-100 {
+        padding-top: 70px;
+    }
+    .pb-70 {
+        padding-bottom: 40px;
+    }
+    .pb-100 {
+        padding-bottom: 70px;
+    }
+    .mb-100 {
+        margin-bottom: 50px;
+    }
+    .section-title {
+        margin-bottom: 30px;
+
+        h2 {
+            font-size: 35px;
+        }
+    }
+    .container {
+        max-width: 720px;
+    }
+    .container-fluid {
+        max-width: 720px;
+    }
+
+    /*----- Home Demo One CSS -----*/
+    /*-- Header --*/
+    .header-area {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+        border-bottom: 1px solid #dddddd45;
+
+        .left {
+            margin-bottom: 10px;
+
+            ul {
+                li {
+                    margin-right: 0;
+                    margin-bottom: 5px;
+                    display: block;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        .right {
+            text-align: center;
+        }
+    }
+
+    /*-- Navbar --*/
+    .side-nav {
+        position: absolute;
+        top: 0;
+        right: 75px;
+        top: 0;
+        text-align: center;
+        padding-top: 7px;
+        padding-bottom: 8px;
+
+        .nav-flag-dropdown {
+            .btn {
+                color: #fff;
+            }
+        }
+        .consultant-btn {
+            padding: 10px 18px;
+        }
+    }
+
+    /*-- Banner --*/
+    .banner-area {
+        padding-top: 190px;
+        padding-bottom: 60px;
+        text-align: center;
+
+        &:before {
+            background: #000;
+            opacity: .80;
+        }
+        .banner-shape {
+            img {
+                display: none;
+            }
+        }
+    }
+    .banner-item {
+        height: 100%;
+    }
+    .banner-content {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+
+        h1 {
+            font-size: 45px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+    }
+    .banner-slider-img {
+        position: relative;
+        right: 0;
+        left: 0;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        max-width: 410px;
+
+        &.two {
+            max-width: 300px;
+        }
+        &.three {
+            max-width: 300px;
+        }
+    }
+
+    /*-- About --*/
+    .about-area {
+        .left-padding {
+            padding-left: 15px;
+        }
+        .about-img {
+            margin-bottom: 30px;
+            
+            .one {
+                img {
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .about-content {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+
+            .section-title {
+                text-align: center;
+            }
+            .bottom {
+                margin-bottom: 40px;
+                
+                ul {
+                    li {
+                        text-align: left;
+                    }
+                }
+            }
+            .years {
+                left: 0;
+            }
+        }
+    }
+    .video-wrap {
+        margin-left: 0;
+    }
+
+    /*-- Services --*/
+    .services-item {
+        padding: 60px 15px 30px 15px;
+        text-align: center;
+
+        .icon {
+            position: relative;
+            left: 0;
+            top: 0;
+            right: 0;
+            margin-bottom: 40px;
+            display: inline-block;
+        }
+    }
+
+    /*-- Book --*/
+    .book-area {
+        .book-content {
+            padding-top: 70px;
+            padding-bottom: 70px;
+            padding-left: 15px;
+            padding-right: 15px;
+
+            h2 {
+                font-size: 35px;
+            }
+            p {
+                font-size: 28px;
+            }
+        }
+    }
+
+    /*-- Touch --*/
+    .touch-area {
+        .section-title {
+            text-align: center;
+        }
+    }
+
+    /*-- Team --*/
+    .team-area {
+        .owl-prev {
+            display: none !important;
+        }
+        .owl-next {
+            display: none !important;
+        }
+    }
+
+    /*-- Plan --*/
+    .plan-area {
+        text-align: center;
+
+        &:before {
+            width: 150px;
+        }
+        .plan-content {
+            padding: 40px 40px 50px 50px;
+            top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+
+            .section-title {
+                text-align: center;
+
+                h2 {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+            .skill-wrap {
+                text-align: left;
+            }
+        }
+    }
+
+    /*-- FAQ --*/
+    .faq-area {
+        .section-title {
+            text-align: center;
+        }
+        .faq-img {
+            img {
+                &:nth-child(2) {
+                    display: none;
+                }
+            }
+        }
+    }
+    .faq-item {
+        .accordion { 
+            p {
+                padding: 20px 20px 20px 25px;
+            }
+        }
+    }
+
+    /*-- Testimonials --*/
+    .testimonials-area {
+        padding-bottom: 50px;
+
+        .section-title {
+            text-align: center;
+        }
+        .testimonials-item {
+            margin-bottom: 20px;
+            text-align: center;
+
+            img {
+                position: relative;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin-bottom: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .inner {
+                padding-left: 0;
+
+                h2 {
+                    font-size: 22px;
+                }
+                h3 {
+                    font-size: 22px;
+                }
+                i {
+                    display: none;
+                }
+            }
+        }
+        .owl-theme .owl-nav {
+            margin-top: 0;
+            position: relative;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    }
+
+    /*-- Blog --*/
+    .blog-item {
+        text-align: center;
+
+        .bottom {
+            padding: 20px 15px 25px;
+
+            ul {
+                li {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    /*----- End Home Demo One CSS -----*/
+
+    /*----- Home Demo Two CSS -----*/
+    /*-- Banner --*/
+    .banner-area-two {
+        .banner-item {
+            .banner-content {
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                padding-top: 160px;
+                padding-bottom: 100px;
+
+                h1 {
+                    font-size: 50px;
+                }
+            }
+        }
+        .owl-prev {
+            top: 50%;
+        }
+        .owl-next {
+            top: 50%;
+        }
+    }
+
+    /*-- About --*/
+    .about-area-two {
+        .about-content {
+            text-align: center;
+
+            .section-title {
+                text-align: center;
+            }
+            ul {
+                li {
+                    text-align: left;
+                }
+            }
+            .common-btn {
+                margin-top: 35px;
+            }
+        }
+    }
+
+    /*-- Projects --*/
+    .projects-item {
+        .inner {
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+    }
+
+    /*-- Services Two --*/
+    .services-item-two {
+        text-align: center;
+
+        .bottom {
+            padding: 20px 15px 25px;
+        }
+    }
+
+    /*-- Projects Two --*/
+    .projects-item-two {
+        padding: 30px 15px 30px;
+        text-align: center;
+    }
+
+    /*-- Counter --*/
+    .counter-item {
+        &:before {
+            display: none;
+        }
+    }
+
+    /*-- Video --*/
+    .video-area {
+        height: 450px;
+
+        .video-item {
+            .video-wrap {
+                margin-left: 0;
+            }
+            span {
+                font-size: 28px;
+            }
+        }
+    }
+
+    /*-- Works --*/
+    .works-area-two {
+        .works-img {
+            img {
+                &:nth-child(1) {
+                    display: none;
+                }
+                &:nth-child(2) {
+                    position: relative;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    max-width: 100%;
+                    margin-bottom: 30px;
+                    margin-top: -20px;
+                }
+            }
+        }
+        .works-content {
+            text-align: center;
+
+            .section-title.two {
+                text-align: center;
+            }
+            ul {
+                li {
+                    text-align: left;
+                }
+            }
+        }
+    }
+    /*-- Testimonials --*/
+    .testimonials-area-two {
+        .testimonials-item {
+            h2 {
+                font-size: 25px;
+                line-height: 1.6;
+            }
+        }
+        .owl-prev {
+            top: 80%;
+            left: 0;
+        }
+        .owl-next {
+            top: 80%;
+            right: 0;
+        }
+    }
+    /*----- End Home Demo Two CSS -----*/
+
+    /*----- Home Demo Three CSS -----*/
+    /*-- Navbar --*/
+    .side-nav {
+        .navbar-form {
+
+            .form-control {
+                height: 25px;
+                position: relative;
+                top: 2px;
+            }
+            .btn {
+                top: 8px;
+            }
+        }
+    }
+
+    /*-- Banner --*/
+    .banner-area-three {
+        height: 100%;
+        padding-top: 150px;
+        padding-bottom: 90px;
+        text-align: center;
+
+        .banner-shape {
+            left: -30px;
+        }
+        .banner-content {
+            margin-top: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .banner-slider-img {
+            position: relative;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            max-width: 100%;
+        }
+    }
+
+    /*-- Provide --*/
+    .provide-area {
+        .nav {
+            li {
+                flex: 0 0 45%;
+                max-width: 45%;
+                margin-bottom: 10px;
+            }
+        }
+        .tab-content {
+            text-align: center;
+
+            .provide-left {
+                h2 {
+                    font-size: 30px;
+                }
+                ul {
+                    li {
+                        padding-left: 0;
+
+                        i {
+                            position: relative;
+                            top: 0;
+                            left: 0;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*-- Features --*/
+    .features-area {
+        .projects-item-two {
+            &.bottom-gap-top {
+                margin-top: 0;
+            }
+            &.bottom-gap-bottom {
+                margin-top: 0;
+            }
+        }
+    }
+
+    /*-- Touch --*/
+    .touch-area.three {
+        .section-title.three {
+            padding-left: 0;
+        }
+        .touch-content {
+            margin-bottom: 30px;
+        }
+    }
+
+    /*-- Testimonials --*/
+    .testimonials-area-three {
+        .testimonials-item {
+            .top {
+                h2 {
+                    line-height: 1.6;
+                }
+            }
+        }
+        .owl-prev {
+            display: none !important;
+        }
+        .owl-next {
+            display: none !important;
+        }
+    }
+    /*----- End Home Demo Three CSS -----*/
+
+    /*----- About CSS -----*/
+    .page-title-area {
+        height: 400px;
+
+        .title-content {
+            margin-top: 60px;
+
+            h2 {
+                font-size: 40px;
+            }
+        }
+    }
+    /*----- End About CSS -----*/
+
+    /*----- Service details CSS -----*/
+    .service-details-area {
+        .details-item {
+            margin-bottom: 30px;
+
+            .details-img {
+                text-align: center;
+                margin-bottom: 30px;
+
+                h2 {
+                    font-size: 35px;
+                }
+            }
+            .details-business {
+                margin-bottom: 30px;
+            }
+            .details-faq {
+                .section-title {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .widget-area {
+        .widget-item {
+            padding: 30px 15px 30px;
+        }
+    }
+    /*----- End Service details CSS -----*/
+
+    /*----- Project details CSS -----*/
+    .project-details-area {
+        .details-item {
+            margin-bottom: 30px;
+            
+            .details-img {
+                margin-bottom: 25px;
+                text-align: center;
+
+                h2 {
+                    font-size: 35px;
+                }
+            }
+            .details-client {
+                margin-bottom: 30px;
+            }
+            .details-related {
+                text-align: center;
+            }
+        }
+    }
+    /*----- End Project details CSS -----*/
+
+    /*----- Blog details CSS -----*/
+    .blog-details-area {
+        .details-item {
+            margin-bottom: 30px;
+
+            .details-img {
+                margin-bottom: 30px;
+                text-align: center;
+            }
+            .details-quote {
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .details-grow {
+                margin-bottom: 30px;
+            }
+            .details-form  {
+                padding: 30px 15px 30px;
+                margin-bottom: 30px;
+                text-align: center;
+
+                .form-group {
+                    margin-bottom: 15px;
+                    text-align: left;
+                }
+            }
+            .details-comment {
+                h3 {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+    .widget-area {
+        .popular {
+            .popular-inner {
+                ul {
+                    li {
+                        flex: 0 0 15%;
+                        max-width: 15%;
+
+                        &:last-child {
+                            flex: 0 0 75%;
+                            max-width: 75%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*----- End Blog details CSS -----*/
+
+    /*----- User Form CSS -----*/
+    .user-form-area {
+        .form-item {
+            form {
+                h2 {
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+    /*----- End User Form CSS -----*/
+
+    /*----- Loan CSS -----*/
+    .loan-area {
+        .loan-item {
+            margin-bottom: 30px;
+            
+            .loan-img {
+                text-align: center;
+
+                h2 {
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+    /*----- End Loan CSS -----*/
+
+    /*----- Apply CSS -----*/
+    .apply-area {
+        .apply-item {
+
+            h2 {
+                font-size: 35px;
+            }
+        }
+    }
+    /*----- End Apply CSS -----*/
+
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+    .side-nav {
+        .consultant-btn {
+            padding: 10px 10px;
+            font-size: 14px;
+        }
+        .nav-flag-dropdown {
+            margin-right: 5px;
+        }
+    }
+    .main-nav nav .navbar-nav .nav-item a {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .navbar-light .navbar-brand {
+        margin-right: 5px;
+        max-width: 125px;
+    }
+    .banner-item {
+        height: 755px;
+    }
+    .banner-content {
+        max-width: 595px;
+    }
+    .banner-slider-img {
+        right: 15px;
+        max-width: 517px;
+
+        &.two {
+            max-width: 375px;
+        }
+        &.three {
+            max-width: 375px;
+        }
+    }
+    .about-area .about-content .years ul li .years-inner {
+        padding: 18px 50px 20px 126px;
+    }
+    .video-wrap span {
+        margin-left: 2px;
+    }
+    .about-area .about-content .years ul li .years-inner i {
+        opacity: .10;
+    }
+    .services-item {
+        padding: 60px 15px 30px 15px;
+        text-align: center;
+
+        .icon {
+            position: relative;
+            left: 0;
+            top: 0;
+            right: 0;
+            margin-bottom: 40px;
+            display: inline-block;
+        }
+    }
+    .team-area {
+        .owl-prev {
+            display: none !important;
+        }
+        .owl-next {
+            display: none !important;
+        }
+    }
+    .works-item h3 {
+        font-size: 21px;
+    }
+    .banner-area-two .owl-prev {
+        display: none !important;
+    }
+    .banner-area-two .owl-next {
+        display: none !important;
+    }
+    .projects-item-two {
+        padding: 30px 15px 30px;
+    }
+    .works-area-two .works-img img:nth-child(2) {
+        max-width: 510px;
+    }
+    .blog-item .bottom {
+        padding: 20px 15px 25px;
+    }
+    .main-nav.three nav .navbar-nav .nav-item a {
+        font-size: 14px;
+    }
+    .banner-area-three {
+        height: 810px;
+    }
+    .banner-area-three .banner-slider-img {
+        max-width: 400px;
+    }
+    .provide-area .nav li {
+        flex: 1 0 14.5%;
+        max-width: 15.5%;
+    }
+    .provide-area .nav li a h3 {
+        font-size: 16px;
+    }
+    .testimonials-area-three .owl-prev {
+        display: none !important;
+    }
+    .testimonials-area-three .owl-next {
+        display: none !important;
+    }
+    .side-nav {
+        .language {
+            margin-right: 6px;
+        }
+        .navbar-form {
+            margin-right: 10px;
+        }
+    }
+
+
+}
+
+@media only screen and (min-width: 1800px)  {
+
+    .banner-area-three .banner-slider-img {
+        max-width: 780px;
+    }
+    .projects-area-three .container-fluid {
+        max-width: 1560px;
+    }
+    .banner-item {
+        height: 1000px;
+    }
+    .banner-content {
+        margin-top: 110px;
+    }
+    .banner-area-three .banner-content {
+        margin-top: 45px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .mean-container .mean-bar {
+        background-color: #011a41;
+    }
+    .mobile-nav .logo {
+        top: 10px;
+        max-width: 105px;
+    }
+    .mean-container a.meanmenu-reveal span {
+        margin-top: 30px;
+        position: relative;
+        top: -10px;
+    }
+    .mobile-nav.mean-container .mean-nav ul li a.active {
+        color: #e93c05;
+    }
+    .navbar-nav {
+        height: 375px;
+        overflow-y: scroll;
+    }
+    .mean-container {
+        .mean-nav ul li a.mean-expand {
+            margin-top: 0;
+        }
+    }
+
+}
+@media (min-width: 1300px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1320px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1350px) {
+
+    .banner-slider-img {
+        max-width: 645px;
+    }
+    .provide-area {
+        .nav {
+            li {
+                flex: 0 0 14.5%;
+                max-width: 14.5%;
+
+                a {
+                    h3 {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+}
