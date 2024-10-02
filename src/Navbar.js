@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from 'react';
+// import './NavBar.css';
 export default function Navbar() {
   return (
     <div className="navbar-area sticky-top">
@@ -15,7 +15,7 @@ export default function Navbar() {
                 <div className="container">
                     <nav className="navbar navbar-expand-md navbar-light">
                         <a className="navbar-brand" href="index.html">
-                            <img src="assets/img/logo-five.png" alt="Logo"/>
+                            <img src="assets/img/logo-six.png" alt="Logo"/>
                         </a>
                         <div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul className="navbar-nav">
@@ -72,7 +72,7 @@ export default function Navbar() {
                                             <a href="privacy-policy.html" className="nav-link">Privacy Policy</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a href="terms-conditions.html" className="nav-link">Terms & Conditions</a>
+                                            <a href="terms-conditions.html" className="nav-link">Terms &amp; Conditions</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -122,29 +122,29 @@ export default function Navbar() {
                                     <a href="contact.html" className="nav-link">Contact</a>
                                 </li>
                             </ul>
-                            <div className="side-nav">
+                            {/* <div className="side-nav">
                                 <div className="language">
                                     <select>
                                         <option>English</option>
-                                        <option>العربيّة</option>
+                                        <option>&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1617;&#1577;</option>
                                         <option>Deutsch</option>
-                                        <option>Português</option>
+                                        <option>Portugu&ecirc;s</option>
                                     </select>
                                 </div>
                                 <div className="navbar-form">
                                     <form>
                                         <input type="text" className="form-control" placeholder="Search"/>
                                         <button type="submit" className="btn">
-                                            <i className='bx bx-search-alt'></i>
+                                            <i className="bx bx-search-alt"></i>
                                         </button>
                                     </form>
                                 </div>
                                 <div className="navbar-modal-btn">
                                     <button type="button" className="btn modal-btn" data-bs-toggle="modal" data-bs-target="#myModalRight">
-                                        <i className='bx bx-menu-alt-right'></i>
+                                        <i className="bx bx-menu-alt-right"></i>
                                     </button>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </nav>
                 </div>
