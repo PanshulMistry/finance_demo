@@ -1,18 +1,45 @@
 import React from 'react'
+import OwlCarousel from 'react-owl-carousel'; // Import OwlCarousel component
+import 'owl.carousel/dist/assets/owl.carousel.css'; // Owl Carousel CSS
+import 'owl.carousel/dist/assets/owl.theme.default.css'; // Owl Carousel default theme CSS
 
 export default function Teams() {
-  return (
-    <section className="team-area two pt-100 pb-70">
+    const options = {
+        loop: true,
+        margin: 10,
+        nav: true,       // Navigation arrows enabled
+        dots: false,     // Disable dots
+        autoplay: true,
+        autoplayTimeout: 5000, // Time interval between automatic slides (5 seconds)
+        smartSpeed: 800,
+        navText: [
+            '<i class="bx bx-chevron-left"></i>',
+            '<i class="bx bx-chevron-right"></i>'
+        ],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            600: {
+                items: 2,
+            },
+            1000: {
+                items: 3,
+            },
+        },
+    };
+
+    return (
+        <section className="team-area two pt-100 pb-70">
             <div className="container">
                 <div className="section-title three">
                     <span className="sub-title">Expert Team</span>
                     <h2>We Have An Exclusive Team</h2>
                 </div>
-                <div className="team-slider owl-theme owl-carousel">
-
+                <OwlCarousel className="team-slider owl-theme" {...options}>
                     <div className="team-item">
                         <div className="top">
-                            <img src="assets/img/team/team1.jpg" alt="Team"/>
+                            <img src="assets/img/team/team1.jpg" alt="Team" />
                             <ul>
                                 <li>
                                     <a href="https://www.facebook.com/" target="_blank">
@@ -39,13 +66,13 @@ export default function Teams() {
                         <div className="bottom">
                             <h3>Keten Moris</h3>
                             <span>CEO of Company</span>
-                            <img src="assets/img/team/team-shape2.png" alt="Shape"/>
+                            <img src="assets/img/team/team-shape2.png" alt="Shape" style={{ width: '35px', height: '35px' }}/>
                         </div>
                     </div>
 
                     <div className="team-item">
                         <div className="top">
-                            <img src="assets/img/team/team2.jpg" alt="Team"/>
+                            <img src="assets/img/team/team2.jpg" alt="Team" />
                             <ul>
                                 <li>
                                     <a href="https://www.facebook.com/" target="_blank">
@@ -72,13 +99,13 @@ export default function Teams() {
                         <div className="bottom">
                             <h3>Digo Mera</h3>
                             <span>Manager</span>
-                            <img src="assets/img/team/team-shape2.png" alt="Shape"/>
+                            <img src="assets/img/team/team-shape2.png" alt="Shape" style={{ width: '35px', height: '35px' }}/>
                         </div>
                     </div>
 
                     <div className="team-item">
                         <div className="top">
-                            <img src="assets/img/team/team3.jpg" alt="Team"/>
+                            <img src="assets/img/team/team3.jpg" alt="Team" />
                             <ul>
                                 <li>
                                     <a href="https://www.facebook.com/" target="_blank">
@@ -105,13 +132,13 @@ export default function Teams() {
                         <div className="bottom">
                             <h3>Mackob Testa</h3>
                             <span>Consultant</span>
-                            <img src="assets/img/team/team-shape2.png" alt="Shape"/>
+                            <img src="assets/img/team/team-shape2.png" alt="Shape" style={{ width: '35px', height: '35px' }}/>
                         </div>
                     </div>
 
                     <div className="team-item">
                         <div className="top">
-                            <img src="assets/img/team/team4.jpg" alt="Team"/>
+                            <img src="assets/img/team/team4.jpg" alt="Team" />
                             <ul>
                                 <li>
                                     <a href="https://www.facebook.com/" target="_blank">
@@ -138,13 +165,13 @@ export default function Teams() {
                         <div className="bottom">
                             <h3>Tom Henry</h3>
                             <span>Engineer</span>
-                            <img src="assets/img/team/team-shape2.png" alt="Shape"/>
+                            <img src="assets/img/team/team-shape2.png" alt="Shape" style={{ width: '35px', height: '35px' }}/>
                         </div>
                     </div>
 
                     <div className="team-item">
                         <div className="top">
-                            <img src="assets/img/team/team5.jpg" alt="Team"/>
+                            <img src="assets/img/team/team5.jpg" alt="Team" />
                             <ul>
                                 <li>
                                     <a href="https://www.facebook.com/" target="_blank">
@@ -171,13 +198,13 @@ export default function Teams() {
                         <div className="bottom">
                             <h3>Jac Jacson</h3>
                             <span>Engineer</span>
-                            <img src="assets/img/team/team-shape2.png" alt="Shape"/>
+                            <img src="assets/img/team/team-shape2.png" alt="Shape" style={{ width: '35px', height: '35px' }}/>
                         </div>
                     </div>
 
                     <div className="team-item">
                         <div className="top">
-                            <img src="assets/img/team/team6.jpg" alt="Team"/>
+                            <img src="assets/img/team/team6.jpg" alt="Team" />
                             <ul>
                                 <li>
                                     <a href="https://www.facebook.com/" target="_blank">
@@ -204,12 +231,11 @@ export default function Teams() {
                         <div className="bottom">
                             <h3>Micheal Smith</h3>
                             <span>Staff</span>
-                            <img src="assets/img/team/team-shape2.png" alt="Shape"/>
+                            <img src="assets/img/team/team-shape2.png" alt="Shape" style={{ width: '35px', height: '35px' }}/>
                         </div>
                     </div>
-
-                </div>
+                </OwlCarousel>
             </div>
         </section>
-  )
+    )
 }

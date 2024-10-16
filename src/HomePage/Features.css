@@ -1,0 +1,46 @@
+.features-area .projects-item-two {
+  border: 1px solid #dfe4fd;
+  box-shadow: 0px 0px 20px 0px rgba(221, 221, 221, 0.34);
+  position: relative; /* Needed for positioning the pseudo-element */
+}
+
+.features-area .projects-item-two img {
+  filter: invert(33%) sepia(99%) saturate(4590%) hue-rotate(226deg) brightness(103%) contrast(98%);
+  transition: filter 0.5s all ease; /* Smooth transition */
+}
+
+.features-area .projects-item-two:hover img {
+  filter: invert(100%) brightness(100%); /* Change to white on hover */
+}
+
+.features-area .projects-item-two h3 a,
+.features-area .projects-item-two .projects-btn {
+  color: #355efc; /* Default text color */
+  transition: color 0.5s all ease; /* Smooth transition for text */
+}
+
+.features-area .projects-item-two:hover h3 a,
+.features-area .projects-item-two:hover .projects-btn {
+  color: #fff; /* Change text color to white on hover */
+}
+
+.features-area .projects-item-two p {
+  color: #355efc; /* Default paragraph color */
+  transition: color 0.5s all ease; /* Smooth transition for paragraph */
+}
+
+.features-area .projects-item-two:hover p {
+  color: #fff; /* Change paragraph color to white on hover */
+}
+
+.features-area .projects-item-two.bottom-gap-top {
+  margin-top: 30px;
+}
+
+.features-area .projects-item-two.bottom-gap-bottom {
+  margin-top: -30px;
+}
+
+.features-area .projects-item-two:before {
+  background-color: #355efc; /* Default background color (optional) */
+}

@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import Homepage from './HomePage/Homepage';
 import reportWebVitals from './reportWebVitals';
+import $ from 'jquery'; // Import jQuery
+import App from './App';
+
+// Inject jQuery globally
+window.jQuery = $;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

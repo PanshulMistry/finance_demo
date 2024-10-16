@@ -2083,6 +2083,9 @@ footer {
 .projects-item-two:hover i {
   color: #fff;
 }
+.projects-item-two:hover .img{
+  color: #fff;
+}
 .projects-item-two:hover h3 a {
   color: #fff;
 }
@@ -2105,6 +2108,14 @@ footer {
   bottom: 0;
 }
 .projects-item-two .icon {
+  display: inline-block;
+  color: #fb2448;
+  font-size: 45px;
+  line-height: 45px;
+  margin-bottom: 15px;
+  transition: 0.5s all ease;
+}
+.projects-item-two .img {
   display: inline-block;
   color: #fb2448;
   font-size: 45px;
@@ -2887,6 +2898,9 @@ footer {
 .features-area .projects-item-two:hover .icon {
   color: #fff;
 }
+.features-area .projects-item-two:hover img {
+  filter: invert(100%) brightness(100%); /* White color on hover */
+}
 .features-area .projects-item-two:hover h3 a {
   color: #fff;
 }
@@ -2898,6 +2912,10 @@ footer {
 }
 .features-area .projects-item-two .icon {
   color: #355efc;
+}
+.features-area .projects-item-two img {
+  filter: invert(37%) sepia(88%) saturate(2711%) hue-rotate(217deg) brightness(96%) contrast(92%); /* Blue color (#355efc) */
+  transition: filter 0.3s ease;
 }
 .features-area .projects-item-two h3 a {
   color: #355efc;

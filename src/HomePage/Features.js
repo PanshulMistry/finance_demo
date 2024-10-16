@@ -1,14 +1,15 @@
-import React from 'react'
-// import './icons/owl.theme.default.min.css'
-// import './icons/responsive.css'
-// import './icons/responsive.scss'
-// import './icons/style.css'
-// import './icons/.style.scss'
-;export default function Features() {
-  return (
-    <section className="features-area pt-100 pb-70">
+import React from 'react';
+import './Features.css'; // Import the stylesheet
+import goalImg from '../icons/goal.png';
+import gandsImg from '../icons/support.png';
+import invertInsImg from '../icons/investment-insurance.png';
+import refinancingImg from '../icons/refinancing.png';
+
+export default function Features() {
+    return (
+        <section className="features-area pt-100 pb-70">
             <div className="features-shape">
-                <img src="assets/img/projects/project-shape4.png" alt="Shape"/>
+                <img src="assets/img/projects/project-shape4.png" alt="Shape" />
             </div>
             <div className="container">
                 <div className="section-title three">
@@ -16,10 +17,9 @@ import React from 'react'
                     <h2>Why You Choose Our Company</h2>
                 </div>
                 <div className="row align-items-center">
-                    
                     <div className="col-lg-6">
                         <div className="features-img">
-                            <img src="assets/img/features-main.png" alt="Features"/>
+                            <img src="assets/img/features-main.png" alt="Features" />
                         </div>
                     </div>
 
@@ -27,8 +27,17 @@ import React from 'react'
                         <div className="row">
                             <div className="col-sm-6 col-lg-6">
                                 <div className="projects-item-two">
-                                    <img src="assets/img/projects/project-shape3.png" alt="Shape"/>
-                                    <i className="flaticon-goal icon"></i>
+                                    <img
+                                        className="flaticon-goal"
+                                        src={goalImg}
+                                        alt="Icon"
+                                        style={{
+                                            position: "relative",
+                                            height: 44.67,
+                                            width: 45,
+                                            marginBottom: 13
+                                        }}
+                                    />
                                     <h3>
                                         <a href="project-details.html">Fast Executions</a>
                                     </h3>
@@ -41,8 +50,17 @@ import React from 'react'
                             </div>
                             <div className="col-sm-6 col-lg-6">
                                 <div className="projects-item-two bottom-gap-top">
-                                    <img src="assets/img/projects/project-shape3.png" alt="Shape"/>
-                                    <i className="flaticon-support icon"></i>
+                                    <img src="assets/img/projects/project-shape3.png" alt="Shape" />
+                                    <img
+                                        src={gandsImg}
+                                        alt="Icon"
+                                        style={{
+                                            position: "relative",
+                                            height: 44.67,
+                                            width: 45,
+                                            marginBottom: 13
+                                        }}
+                                    />
                                     <h3>
                                         <a href="project-details.html">Guide & Support</a>
                                     </h3>
@@ -55,8 +73,17 @@ import React from 'react'
                             </div>
                             <div className="col-sm-6 col-lg-6">
                                 <div className="projects-item-two bottom-gap-bottom">
-                                    <img src="assets/img/projects/project-shape3.png" alt="Shape"/>
-                                    <i className="flaticon-investment-insurance icon"></i>
+                                    <img src="assets/img/projects/project-shape3.png" alt="Shape" />
+                                    <img
+                                        src={invertInsImg}
+                                        alt="Icon"
+                                        style={{
+                                            position: "relative",
+                                            height: 44.67,
+                                            width: 45,
+                                            marginBottom: 13
+                                        }}
+                                    />
                                     <h3>
                                         <a href="project-details.html">Financial Secure</a>
                                     </h3>
@@ -67,11 +94,20 @@ import React from 'react'
                                     </a>
                                 </div>
                             </div>
-        
+
                             <div className="col-sm-6 col-lg-6">
                                 <div className="projects-item-two">
-                                    <img src="assets/img/projects/project-shape3.png" alt="Shape"/>
-                                    <i className="flaticon-refinancing icon"></i>
+                                    <img src="assets/img/projects/project-shape3.png" alt="Shape" />
+                                    <img
+                                        src={refinancingImg}
+                                        alt="Icon"
+                                        style={{
+                                            position: "relative",
+                                            height: 44.67,
+                                            width: 45,
+                                            marginBottom: 13
+                                        }}
+                                    />
                                     <h3>
                                         <a href="project-details.html">Refinancing</a>
                                     </h3>
@@ -84,9 +120,8 @@ import React from 'react'
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
-  )
+    );
 }
